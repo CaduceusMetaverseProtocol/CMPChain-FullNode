@@ -2,6 +2,7 @@ version: "3"
 
 services:
   docker-cmpd:
+    image: cadcuceus/cmp-chain-mainnet-node
     container_name: cmpd-mainnet
     build:
       context: .
@@ -15,4 +16,4 @@ services:
       - "26656:26656"
       - "8545:8545" 
     volumes:
-      - /home/ubuntu/MetaRing/node-data:/cmp
+      - ./node-data:/cmp
