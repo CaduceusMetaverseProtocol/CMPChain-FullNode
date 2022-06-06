@@ -1,4 +1,4 @@
-FROM cmp-chain-full-node:1.0.0
+FROM cadcuceus/cmp-chain-full-node:1.0.0
 
 # Install ca-certificates
 RUN apk add --no-cache --update ca-certificates py3-setuptools supervisor wget lz4 gzip
