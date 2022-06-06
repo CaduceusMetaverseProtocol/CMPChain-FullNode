@@ -1,0 +1,1603 @@
+{
+  "genesis_time": "2022-04-27T23:56:51.687155255Z",
+  "chain_id": "256256",
+  "consensus_params": {
+    "event": {
+      "max_gas": "-1",
+      "max_bytes": "131072",
+      "time_iota_ms": "1000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "crisis": {
+      "constant_fee": {
+        "denom": "cmp",
+        "amount": "1000"
+      }
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "cmp",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "evm": {
+      "accounts": null,
+      "ethlogs": null,
+      "params": {
+        "evm_denom": "cmp",
+        "enable_create": true,
+        "enable_call": true,
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "yoloV2_block": "-1",
+          "ewasm_block": "-1"
+        }
+      }
+    },
+    "params": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "0",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp16qdaqh2qe94uqjhedp9d80uqyv9j8x6st7776g",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "777999988999999999999999999"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xd01bd05d40c96bc04af9684ad3bf80230b239b50"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp18czz0urwm9hp5w2va4mzvcfv6zfwnf5vmnyk4x",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x3e0427f06ed96e1a394ced7626612cd092e9a68c"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1cc0er8hlwxz0upasufxsuh6jfamm9gg908asnt",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xc61f919eff7184fe07b0e24d0e5f524f77b2a105"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1tcftum6cl3cvmujtxncq57ltxm34unpqjgty0f",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x5e12be6f58fc70cdf24b34f00a7beb36e35e4c20"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1ypd5gq3tuv4a539v43g65zepdqytghlhxm8ycm",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x205b44022be32bda44acac51aa0b216808b45ff7"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp19yaynyjhagz6pcuplttkdlk5y6k38r3xm3kh2y",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x293a499257ea05a0e381fad766fed426ad138e26"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1w83er8w3m6mf8dd70yd44jxd7zrf5nqkak7jd6",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x71e3919dd1deb693b5be791b5ac8cdf0869a4c16"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1d44rmgtyqgtxdv6k4unluwzx2zaaax5dze07d9",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x6d6a3da164021666b356af27fe384650bbde9a8d"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp10ctxjx8yrcesndnthyqcpudv4jqpzse4rdewhd",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x7e166918e41e3309b66bb90180f1acac80114335"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp16kez5xq60uaz8sw7a4uqh9clqkfqpav67dlzrk",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xd5b22a181a7f3a23c1deed780b971f059200f59a"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp16eyl0f6lv8kfh65ptqyejhkhmcu267dsqu2xcc",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xd649f7a75f61ec9bea815809995ed7de38ad79b0"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp195aux7q5x5j5lj6c6dwxc2vpe9rgy84t5evzej",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x2d3bc3781435254fcb58d35c6c2981c946821eab"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1lq0c623u2yl7lpcc43xgwrh36tdnjerw7wgy9x",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xf81f8d2a3c513fef8718ac4c870ef1d2db39646e"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1v74f04gjtx9ygjsqppj4cm94wvkd2ckrenmrt5",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x67aa97d512598a444a0008655c6cb5732cd562c3"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1n9ut2fwhyye5d8l7ct6nzt4xqtgsxha5565mdk",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x9978b525d72133469ffec2f5312ea602d1035fb4"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1uymt5aemyc80gzx89ae2qq7jvhhm27aqc7yqn0",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xe136ba773b260ef408c72f72a003d265efb57ba0"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1g70sn4y0vkvpy0jm6wy90klp58sazvxq5kh2wj",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x479f09d48f6598123e5bd38857dbe1a1e1d130c0"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1f5c3t9uy2tuw0ud2l0y6puhvkh3u56akgpruj5",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x4d3115978452f8e7f1aafbc9a0f2ecb5e3ca6bb6"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1a7rw4pxyt9hq8x3ujge2l9ges4fakn3jtrpg79",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xef86ea84c4596e039a3c9232af95198553db4e32"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1t0zknhtgg5j4kuwjy7wvtj7t6gpfxyytatleg5",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x5bc569dd6845255b71d2279cc5cbcbd20293108b"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1rvqy4xjw34xauu0a9dmyqq9cfwqtvedhnwx8gt",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x1b004a9a4e8d4dde71fd2b764000b84b80b665b7"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1yj2yn9f97758ym0qm4a4w5kuelnluvutrlmjzc",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0x2494499525f7a8726de0dd7b5752dccfe7fe338b"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp17d7k3npkadekmtheeknragy0xphlcwzx4h6l3n",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xf37d68cc36eb736daef9cda63ea08f306ffc3846"
+          }
+        },
+        {
+          "type": "cmp/MainAccount",
+          "value": {
+            "name": "",
+            "address": "cmp1el3syt2jztuew8wdjja8ruxmkszlfthma7yfdd",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "cmp",
+                "amount": "1000000000000000000"
+              },
+              {
+                "denom": "coin0",
+                "amount": "1"
+              },
+              {
+                "denom": "coin1",
+                "amount": "1"
+              },
+              {
+                "denom": "coin2",
+                "amount": "1"
+              },
+              {
+                "denom": "coin3",
+                "amount": "1"
+              },
+              {
+                "denom": "coin4",
+                "amount": "1"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "ethAddress": "0xcfe3022d5212f9971dcd94ba71f0dbb405f4aefb"
+          }
+        }
+      ]
+    },
+    "punishment": {},
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 11,
+        "max_entries": 7,
+        "historical_entries": 0,
+        "bond_denom": "cmp"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "supply": {
+      "supply": []
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node1",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1lq0c623u2yl7lpcc43xgwrh36tdnjerw7wgy9x",
+                  "validator_address": "cmpvaloper1lq0c623u2yl7lpcc43xgwrh36tdnjerw8zsy33",
+                  "pubkey": "cmpvalconspub1l67l54pqp4swg22y4angdx0m79rfg3jygpuelu7jxkamdfglr93zmy83hv0sw5d467",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BM0h9N8dwLGWGQF+9IL6qVERl0idc0l8RXBeO0fgtmubnsU9VAPwEA8sFpThrI1mqVA5W1L25TUQWHmb1+HMutw="
+                },
+                "signature": "hcYTCxLOd80OA8wO6SdzAk5DjWgcdw9eEn2NCnruAHdIbD27XjuerHxIz/oSzo12h+3XCJ5zfeuLTa5/HjY7dgA="
+              }
+            ],
+            "memo": "3a1e8fea3ef98f61234bc468a1166ac7d90c2c9e@199.199.1.38:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node7",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1t0zknhtgg5j4kuwjy7wvtj7t6gpfxyytatleg5",
+                  "validator_address": "cmpvaloper1t0zknhtgg5j4kuwjy7wvtj7t6gpfxyyty88eur",
+                  "pubkey": "cmpvalconspub1l67l54pqcn6ye3f8kehqrkthug4kgws0t68swu3qvgclrqtmjpcduzjcu8eqtxrh4r",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BAcvqq4fbyxuE52qohbYaKS5OZ1PQ8oYphccQjRE5EhRPpZJhTNb8L98flyqetsZzYUWjNifEvpd7Uf7SxHpGlM="
+                },
+                "signature": "SJG4GUxXVHOagGJ/VeqN/6voB4HB9jGja/ahVkfPoSJKXrBfGcotdsYCgyuWgwxXr8C8dh7FS1RMO57+MqItIQE="
+              }
+            ],
+            "memo": "4c6db7d8fb1b43e5a85703140ff428453a0987ae@199.199.3.38:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node10",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp17d7k3npkadekmtheeknragy0xphlcwzx4h6l3n",
+                  "validator_address": "cmpvaloper17d7k3npkadekmtheeknragy0xphlcwzxvmzl9y",
+                  "pubkey": "cmpvalconspub1l67l54pqv22cv8f62pv7ft84gcdgnwg0ppyap452779phvwtpfhedwad06wq70fvnz",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BDuU/qTL+FrRfqmA24+f5VyWIAqqiPl5JKro7UXK+wrnXzuKlfxcWDbi+ZZkc+rN4BhWzdjtaPgl279z0yECmyY="
+                },
+                "signature": "YXtWP8IQCMe2vR12QM3V1X3w2gIyoWulqribwfgMVR9ggLP/6ncp0xMWifBJrEtsawH8+Rpi6uwu2ge18joxuAE="
+              }
+            ],
+            "memo": "5728a4561466657a006eee0c97b87e462da9fb5b@199.199.4.68:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node9",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1yj2yn9f97758ym0qm4a4w5kuelnluvutrlmjzc",
+                  "validator_address": "cmpvaloper1yj2yn9f97758ym0qm4a4w5kuelnluvut6nrjk0",
+                  "pubkey": "cmpvalconspub1l67l54pqc40dwyxhdgfj874qudagzpuxfa3t97j4qz0l520ewalu9f8artls5e37u5",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BKt6YbFOog5TZHAO3zL4t/JnSsb1n9k+vh2S1PAER0kA0zCUXUx6VOn6zpZtcKc0JtwNKOPlnWMPns+xMDRufwQ="
+                },
+                "signature": "G542ZTHIYOKfD5T7i9u4ljVCGaGBTLnjttQ3l7Y7peZjFMcHc/DpHE05CFgJzpflMNdxhE0sXrwnoncEdWe4egE="
+              }
+            ],
+            "memo": "5f77ca57a086978cc8a2f6ea058aff6493d265f6@199.199.4.38:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node6",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1a7rw4pxyt9hq8x3ujge2l9ges4fakn3jtrpg79",
+                  "validator_address": "cmpvaloper1a7rw4pxyt9hq8x3ujge2l9ges4fakn3jj0eg2j",
+                  "pubkey": "cmpvalconspub1l67l54pquhutl46zlwfm0zeju0qsypvkph8vk7q5geqwnmyh0zgtj7dkvy9q9pkr59",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BJtM4aqCQwbxab5K5DUhQ8UTxTsGLu9DgumH7d8qWWB5s/6Wm+1rCOo+vYsSVAvRBCCl/WLZI2DvegrXg4Y04SE="
+                },
+                "signature": "fFNb7gqzFFMYo/QudgHetg+8v0kH74Zqp8WIggx73hs7Ff0I1SUfCXYlAl37MIeFxnQF8uRxfHH1nV3rsGn5lwA="
+              }
+            ],
+            "memo": "646030b321889b994a455efa7ea1a64f02fb1aa2@199.199.2.108:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node8",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1rvqy4xjw34xauu0a9dmyqq9cfwqtvedhnwx8gt",
+                  "validator_address": "cmpvaloper1rvqy4xjw34xauu0a9dmyqq9cfwqtvedh2z78uu",
+                  "pubkey": "cmpvalconspub1l67l54pquh6alh32aa6njnqaewyplmrwy7uhkkq2hum7cwcc0h629y47yjlqlxa8n9",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BNeO24FQnnS9HwtZ7V8Ro+UQK/pedweC7r2bihohsC4Lse71rAOyAW4SWpFu73GzuJHujJl/oENH+ogcjYthnP8="
+                },
+                "signature": "g7ouTLRRkm+C1NcQf+jq9Er2DxNJRYR4ROED0a9H888vsGuDGrO9Z6VsAgGnPA0aLDKl84dC7m3YeQ6aqBhMvgA="
+              }
+            ],
+            "memo": "67287724c577188f59b9093fc2ed946b7880e3a6@199.199.3.68:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node3",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1uymt5aemyc80gzx89ae2qq7jvhhm27aqc7yqn0",
+                  "validator_address": "cmpvaloper1uymt5aemyc80gzx89ae2qq7jvhhm27aqpjuq8c",
+                  "pubkey": "cmpvalconspub1l67l54pqjpsgjg34ueqv8u5zdnty4nnnuc98vdwrgctjfnrk436h8svh75csgdv4mx",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BLwhzkhmMu6/86QOUBOTxyop0iP99nrKTaYUkBXeZhw0CTpRXEp6wgFNlXjcewAIcYh2mmVatJJCvnCvYPqhyho="
+                },
+                "signature": "lVvby5y/n9o2DzSQPF6P8pM2Ej9SkZCUOIJG5Ype4vpt9XX2tsyrK76Bekz8axTED4a+N23frq1FPBWj5kpcKwE="
+              }
+            ],
+            "memo": "88a649cf4ab9effa3fc0356df5c99e253d105f67@199.199.1.108:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node11",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1el3syt2jztuew8wdjja8ruxmkszlfthma7yfdd",
+                  "validator_address": "cmpvaloper1el3syt2jztuew8wdjja8ruxmkszlfthmyjufe6",
+                  "pubkey": "cmpvalconspub1l67l54pq6qx2kn2v3ug9q6zaye58syqqqzt8kyn8m9v5wukvhxnmj6znqa7qskg6d4",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BPMFXjpJzmnk3dmHPFOx+Z803kEtNpbMy7v0CT9lYn/ZpmLh9+dWg5GqvM+qwwYZrsdEIp0bRlOXy3PBtPcCWgo="
+                },
+                "signature": "J5D4WAPnRsGncXwA6yjGP9Lf1q5uC18ZnwAQxwFlqQhqvLlHBIl8UcucOdOjZalReKKZC966BorpnrgZ7anS2wE="
+              }
+            ],
+            "memo": "95bf1d72b8498b864913f7f10be6e94d13722c3f@199.199.5.38:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node4",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1g70sn4y0vkvpy0jm6wy90klp58sazvxq5kh2wj",
+                  "validator_address": "cmpvaloper1g70sn4y0vkvpy0jm6wy90klp58sazvxqd60269",
+                  "pubkey": "cmpvalconspub1l67l54pqr49xsjtk6v9q3j0celrshnvav84sr32fefmt22pgt7732nldtfxse6my6y",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BIwkF/ZysbWWB2iYy1c4EZ9NHDmi1dpIHNtvEabxO24LqN9sP/tMl+lQiQWjqa9J/9YrPlQqbG6zB+0TnHtQ92Y="
+                },
+                "signature": "4P3dH/rFS6PHd8cYWhupabEW1ze8U+a0kD/eNnN3gHpdY/WE7DsiaC92HqW3A3mjUmnjPphhijAXAIajX9hdJAA="
+              }
+            ],
+            "memo": "a3fe9798234d0cdd5e29d21f08c4d48f7723c45e@199.199.2.38:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node2",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1n9ut2fwhyye5d8l7ct6nzt4xqtgsxha5565mdk",
+                  "validator_address": "cmpvaloper1n9ut2fwhyye5d8l7ct6nzt4xqtgsxha5dkvmep",
+                  "pubkey": "cmpvalconspub1l67l54pqf6lxaptnhkpld4atchmj4zdvq0fl4xd227vy9lkgu82mlu0qq2ass60vda",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BLPOuNe1DswIcf3aCS+LAuWwDMS8OncfEcdn/EWEqlAr20umo53Oy+3FX1lyOXkUxtF0ZCyG9mI4jNoSbSmf62o="
+                },
+                "signature": "ZXteZoI016IxAMm4BJCmN9nHfKeUexTnAPbpVaL6tjsLgCM2X7XjncxXSYap4/coLmEVyqpkPoQk1dzQEzvH7AA="
+              }
+            ],
+            "memo": "d19ddd05cd7ed6730f7632bdb17c0df9460117b1@199.199.1.68:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node5",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cmp1f5c3t9uy2tuw0ud2l0y6puhvkh3u56akgpruj5",
+                  "validator_address": "cmpvaloper1f5c3t9uy2tuw0ud2l0y6puhvkh3u56ak3dmuxr",
+                  "pubkey": "cmpvalconspub1l67l54pqff08kfwhfdp43cknkymyjn5n0774ndkcucywfwk59vwpwwt7klyqfcyw2a",
+                  "value": {
+                    "denom": "cmp",
+                    "amount": "1000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BGQ8ziZ2aRA08lBxBkXPrbUAQe6jFzjVgZCs8d3J72EW/BydNoz4ZieMpH6d6h0QFMHsmn61HlWpAR2Eik6ifTM="
+                },
+                "signature": "e662UWmpGJzUm6oa9tFfjgavUpeLfoHQCWCdlEuY2flaxDJH3LfROECqP8NysKPzJJSq59WkrVIrm+kLScAIBwE="
+              }
+            ],
+            "memo": "f3639b46f2adb52a5b65d4bcf348fd301b865b7f@199.199.2.68:26656"
+          }
+        }
+      ]
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "mint": {
+      "minter": {
+        "total_provisions": "200000000000000000000000000.000000000000000000",
+        "minted_per_duration": "800000000.000000000000000000",
+        "genesis_block_time": "0001-01-01T00:00:00Z",
+        "latest_block_time": "0001-01-01T00:00:00Z",
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "cmp",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "iam": {},
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    }
+  }
+}
