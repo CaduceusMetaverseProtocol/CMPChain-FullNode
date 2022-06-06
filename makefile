@@ -1,6 +1,6 @@
 
 build :
-	docker build -f ./Dockerfile . -t cadcuceus/cmp-chain-mainnet-node
+	docker compose build 
 
 start :
 	docker compose up -d 
