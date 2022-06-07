@@ -1,13 +1,12 @@
 ## SUPPORTED PLATFORMS
-We support running a full node on Linux.
+We support running a full node on Ubuntu 22.04 LTS.
 
 ## MINIMUM HARDWARE REQUIREMENTS
 
 * 4 cores of CPU and 8 gigabytes of memory (RAM).
 * 500 GB of free disk space, solid-state drive(SSD).
 
-## PREREQUISITES
-
+## SOFTWARE PREREQUISITES
 
 * install docker 
 
