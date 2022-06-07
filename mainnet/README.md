@@ -6,9 +6,16 @@ We support running a full node on Linux.
 * 4 cores of CPU and 8 gigabytes of memory (RAM).
 * 500 GB of free disk space, solid-state drive(SSD).
 
-## PRE-INSTALL docker-compose
+## PREREQUISITES
 
-https://docs.docker.com/compose/install/
+
+* install docker 
+
+https://docs.docker.com/engine/install/#server
+
+* install docker compose-plugin
+
+https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems
 
 
 ## RUNING FULL NODE
