@@ -4,7 +4,7 @@ We support running a full node on Ubuntu 22.04 LTS.
 ## MINIMUM HARDWARE REQUIREMENTS
 
 * 4 cores of CPU and 16 gigabytes of memory (RAM).
-* fixed size hard disk,2TB; Elastic Volumes,1TB.
+* fixed size hard disk,2TB or elastic volumes,1TB.
 
 
 ## SOFTWARE PREREQUISITES
