@@ -3,7 +3,7 @@ version: "3"
 services:
   docker-cmpd:
     image: cadcuceus/cmp-chain-mainnet-node:1.0.1
-    container_name: cmpd-mainnet
+    container_name: cmp-mainnet-node
     build:
       context: .
       dockerfile: Dockerfile

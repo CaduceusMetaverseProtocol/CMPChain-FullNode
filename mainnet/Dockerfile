@@ -16,7 +16,7 @@ EXPOSE 8545
 
 # Add entrypoint script
 COPY ./scripts/entrypoint.sh /usr/local/bin/entrypoint.sh
-COPY ./fullnode /tmp
+COPY ./mainnet-config /tmp
 RUN chmod u+x /usr/local/bin/entrypoint.sh
 ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
 

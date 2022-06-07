@@ -20,8 +20,8 @@ initialize() {
 		cd "${NODE_DIR}/config"
 		rm -rf app.toml config.toml genesis.json 
 
-		cp -r /tmp/prod/config/*  ./
-		cp -r /tmp/prod/clicfg/ ../
+		cp -r /tmp/config/*  ./
+		cp -r /tmp/clicfg/ ../
 	fi
 }
 
