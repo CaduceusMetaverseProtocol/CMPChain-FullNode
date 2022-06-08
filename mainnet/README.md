@@ -26,19 +26,39 @@ Mount a new host folder,replace the path "./node-data" in docker-compose.yml wit
 
 ## RUNNING FULL NODE
 
-1. Building docker image locally(optional)
+* Build docker image locally(optional)
 ```
 make build 
 ```
 
-2. Running node(If the docker image does not exist, pull the image from Docker Hub automaticlly. )
+* Run node(If the docker image does not exist, pull the image from Docker Hub automaticlly.)
 ```
-make start
+docker-compose up -d
 ```
 
-3. Stopping the full node 
+* Stop the full node 
 ```
-make stop 
+docker-compose down
+```
+
+4. Download the node data archive file(recommend)
+```
+nohup sudo curl -SL https://caduceus.foundation/downloads/node-data.tar.gz -O ./node-data.tar.gz &
+```
+```
+sudo tar -xzvf ./node-data.tar.gz
+```
+```
+docker-compose down
+```
+```
+sudo cp -r ./node-data/node0 ./node-data/node0.bak
+```
+```
+sudo mv ./data/*.db ./node-data/node0/data/
+```
+```
+docker-compose up -d
 ```
 
 ## CHECK THE LAST SYNCED BLOCK NUMBER
@@ -48,4 +68,7 @@ or run the command in the same directory as the docker-compose.yml file.
 tail ./node-data/node0/stdout-cmpd.txt -f | grep Committed
 
 ```
+
+## TEST RPC
+curl -X POST -H 'Content-Type: application/json' --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", true],"id":1}' http://127.0.0.1:26658
 
