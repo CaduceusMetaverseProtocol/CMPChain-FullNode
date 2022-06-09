@@ -1,4 +1,4 @@
-FROM caduceus/cmp-chain-full-node:1.0.1
+FROM caduceus/cmp-chain-full-node:1.0.2
 
 # Install ca-certificates
 RUN apk add --no-cache --update ca-certificates py3-setuptools supervisor wget lz4 gzip
