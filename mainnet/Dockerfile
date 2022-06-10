@@ -1,14 +1,4 @@
-FROM caduceus/cmp-chain-full-node:1.0.2
-
-# Install ca-certificates
-RUN apk add --no-cache --update ca-certificates py3-setuptools supervisor wget lz4 gzip
-
-# Temp directory for copying binaries
-RUN mkdir -p /tmp/bin
-WORKDIR /tmp/bin
-
-
-#WORKDIR $GAIAD_HOME
+FROM caduceus/cmp-chain-full-node:1.0.3
 
 # Expose ports
 EXPOSE 26656 26657 26658
