@@ -9,7 +9,7 @@ initialize() {
 	BINARY=$2
 
 	if [ $# != 2 ]; then
-		echo "expected 4 arguments for initialize"
+		echo "expected 2 arguments for initialize"
 		exit 1
 	fi
 
