@@ -1,6 +1,6 @@
 
 build :
-	docker build -f Dockerfile .  -t caduceus/cmp-chain-mainnet-node:1.0.9
+	docker build -f Dockerfile .  -t caduceus/cmp-chain-mainnet-node:1.0.10
 
 start :
 	docker compose up -d 
