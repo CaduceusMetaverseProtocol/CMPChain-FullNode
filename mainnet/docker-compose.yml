@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   docker-cmpd:
-    image: caduceus/cmp-chain-mainnet-node:1.0.10
+    image: caduceus/cmp-chain-mainnet-node:1.0.11
     container_name: cmp-mainnet-node
     environment:
       - ID=0
