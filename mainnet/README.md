@@ -43,11 +43,11 @@ docker-compose down
 
 * Download the latest node data archive file(recommend, Default automatic snapshot time is 03:00 UTC)
 ```
-nohup sudo curl -SL https://caduceus.foundation/downloads/node-data-$(date -u +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date -u +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
 
 or
  
-nohup sudo curl -SL https://caduceus.foundation/downloads/node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
 
 ```
 ```
