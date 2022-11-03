@@ -43,11 +43,11 @@ docker-compose down
 
 * Download the latest node data archive file(recommend, Default automatic snapshot time is 03:00 UTC)
 ```
-nohup sudo curl -SL https://caduceus.foundation/downloads/node-data-$(date -u +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date -u +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
 
 or
  
-nohup sudo curl -SL https://caduceus.foundation/downloads/node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
 
 ```
 ```
@@ -63,7 +63,9 @@ docker-compose down
 sudo cp -r ./node-data/node0 ./node-data/node0.bak
 ```
 ```
-sudo mv ./data/*.db ./node-data/node0/data/
+mv ./node-data/node0/data  ./node-data/node0/data.bak
+mv ./data/ ./node-data/node0/
+sudo cp ./node-data/node0/data.bak/priv_validator_state.json ./node-data/node0/data 
 ```
 ```
 docker-compose up -d
