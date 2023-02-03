@@ -11,13 +11,13 @@ services:
     volumes:
       -  ./node-data/mysql/data:/var/lib/mysql
   logs:
-    image: caduceus/blockchain-event-plugin:1.0.1
+    image: caduceus/blockchain-event-plugin:1.0.2
     environment:
       RPC_PORT: 18535
       MysqlSourceName: 'root:mysql2022@tcp(db:3306)/cmp_chain?parseTime=true&charset=utf8&loc=Local'
 
   docker-cmpd:
-    image: caduceus/cmp-chain-mainnet-node:logs
+    image: caduceus/cmp-chain-mainnet-node:logs-1
     container_name: cmp-mainnet-node
     environment:
       - ID=0
@@ -33,6 +33,7 @@ services:
     ports:
       - "26656:26656"
       - "26658:8545" 
+      - "26660:8546"
     volumes:
       - ./node-data:/cmp
 
