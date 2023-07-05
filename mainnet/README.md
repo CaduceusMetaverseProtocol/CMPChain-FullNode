@@ -39,13 +39,13 @@ make build
 2. By default, it is disabled, it validates but does not save consensus Event data, therefore it cannot be used as a source peer node for other nodes to synchronize consensus data.
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 
 * Stop the full node 
 ```
-docker-compose down
+docker compose down
 ```
 
 
