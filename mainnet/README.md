@@ -36,7 +36,7 @@ make build
 * The ENABLE-SYNC-FRAME node startup parameter in docker-compose is disabled by default.
 
 1. If enabled, it validates and saves consensus Event data, allowing it to serve as a source peer node for other nodes to synchronize consensus data.
-2. By default, it is disabled, it validates but does not save consensus Event data, therefore it cannot be used as a source peer node for other nodes to synchronize consensus data.
+2. By default, it is disabled, it validates but does not save consensus Event data, therefore it cannot be used as a source peer node for other nodes to synchronize consensus data. Using this mode will greatly save disk space.
 
 ```
 docker compose up -d
