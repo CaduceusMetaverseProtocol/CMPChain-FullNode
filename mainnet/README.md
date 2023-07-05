@@ -15,7 +15,8 @@ https://docs.docker.com/engine/install/#server
 
 * install docker compose-plugin
 
-https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems
+https://docs.docker.com/compose/install/linux/#install-using-the-repository
+
 
 
 
