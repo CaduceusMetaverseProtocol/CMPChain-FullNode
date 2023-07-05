@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   docker-cmpd:
-    image: caduceus/cmp-chain-mainnet-blocknode:1.0.1
+    image: caduceus/cmp-chain-mainnet-blocknode:1.0.2
     container_name: cmp-mainnet-node
     environment:
       - ID=0
@@ -10,6 +10,7 @@ services:
       - WRITE-TIMEOUNT=60 
       - ENABLE-CROSS-DOMAIN=true
       - ENABLE-LIGHT-NODE=true
+      - ENABLE-SYNC-FRAME=false
 
     deploy:
       restart_policy:
