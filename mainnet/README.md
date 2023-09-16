@@ -15,7 +15,8 @@ https://docs.docker.com/engine/install/#server
 
 * install docker compose-plugin
 
-https://docs.docker.com/compose/install/compose-plugin/#installing-compose-on-linux-systems
+https://docs.docker.com/compose/install/linux/#install-using-the-repository
+
 
 
 
@@ -32,27 +33,36 @@ make build
 ```
 
 * Run node(If the docker image does not exist, pull the image from Docker Hub automaticlly.)
+* The ENABLE-SYNC-FRAME node startup parameter in docker-compose is disabled by default.
+
+1. If enabled, it validates and saves consensus Event data, allowing it to serve as a source peer node for other nodes to synchronize consensus data.
+2. By default, it is disabled, it validates but does not save consensus Event data, therefore it cannot be used as a source peer node for other nodes to synchronize consensus data. Using this mode will greatly save disk space.
+
 ```
-docker-compose up -d
+docker compose up -d
 ```
+
 
 * Stop the full node 
 ```
-docker-compose down
+docker compose down
 ```
 
-* Download the latest node data archive file(recommend, Default automatic snapshot time is 03:00 UTC)
+
+* Download the latest node data archive file(recommend, Default automatic snapshot time is 20:00 UTC)
 ```
-nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date -u +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/light-node-data-$(date -u +'%Y%m%d').tar.gz -O ./light-node-data.tar.gz &
 
 or
  
-nohup sudo curl -SL https://dl.caduceus.foundation/downloads/node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./node-data.tar.gz &
+nohup sudo curl -SL https://dl.caduceus.foundation/downloads/light-node-data-$(date  -u -d yesterday  +'%Y%m%d').tar.gz -O ./light-node-data.tar.gz &
+
 
 ```
 ```
 
-sudo tar -xzvf ./node-data-${YYYYMMDD}.tar.gz 
+sudo tar -xzvf ./light-node-data-${YYYYMMDD}.tar.gz 
 
 replace the YYYYMMDD with the date in the downloaded file name.
 ```
@@ -63,11 +73,15 @@ docker-compose down
 sudo cp -r ./node-data/node0 ./node-data/node0.bak
 ```
 ```
-sudo mv ./data/*.db ./node-data/node0/data/
+mv ./node-data/node0/data  ./node-data/node0/data.bak
+mv ./data/ ./node-data/node0/
+sudo cp ./node-data/node0/data.bak/priv_validator_state.json ./node-data/node0/data 
 ```
 ```
 docker-compose up -d
 ```
+
+
 
 ## CHECK THE LAST SYNCED BLOCK NUMBER
 If you change the default data directory for node, replace the path "./node-data" with your new directory.
