@@ -1,4 +1,4 @@
-FROM  caduceus/cmp-chain-block-node:1.0.3
+FROM  caduceus/cmp-chain-block-node:1.0.4
 
 # Expose ports
 EXPOSE 26656 26657 26658
